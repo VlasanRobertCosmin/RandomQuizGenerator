@@ -1,0 +1,7 @@
+﻿Intrebari,A,B,C,D
+Care este diferența principală între determinarea maximului și minimului atunci când numărul de valori este cunoscut de la început?,Nu există nicio diferență.,Se utilizează instrucțiuni diferite pentru citirea valorilor.,Se utilizează valori inițiale diferite pentru min și max.,Se utilizează instrucțiuni diferite pentru compararea valorilor.
+Care este secvența de implementare C++ pentru calcularea cifrei de control?,while (n > 9) { s = 0; while (n > 0) { s *= n % 10; n /= 10; } n = s; },while (n > 9) { s = 0; while (n > 0) { s += n % 10; n /= 10; } n = s; },while (n > 9) { s = 0; while (n > 0) { s -= n % 10; n /= 10; } n = s; },while (n > 9) { s = 0; while (n > 0) { s /= n % 10; n /= 10; } n = s; }
+Ce înseamnă că un număr m este multiplu al unui număr n?,Restul împărțirii lui m la n este 1.,Există un număr p astfel încât n * p = m.,Restul împărțirii lui m la n este 0.,m este mai mare decât n.
+Ce se întâmplă dacă un număr are o singură cifră?,Cifra de control este suma cifrei cu 9.,Cifra de control este 9.,Cifra de control este 0.,Cifra de control este numărul însuși.
+Care este secvența de implementare C++ pentru metoda alternativă?,while (n > 9) { n = n / 10 - n % 10; },while (n > 9) { n = n - 10 + n % 10; },while (n > 9) { n = n * 10 + n % 10; },while (n > 9) { n = n / 10 + n % 10; }
+"Dacă m % n == 0, ce putem concluziona despre m și n?",m este divizibil cu n.,n este divizibil cu m.,m și n sunt egale.,m este mai mare decât n.
